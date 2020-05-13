@@ -11,7 +11,7 @@ public class Fibonacci {
 		System.out.println("Quantos número da sequência de Fibonacci você deseja visualizar? ");
 		int vezes = sc.nextInt();
 
-		for (int cont = 0, i = 0, j = 1; cont <= vezes; cont++) {
+		for (int cont = 0, i = 0, j = 1; cont < vezes; cont++) {
 			System.out.print(i + " ");
 
 			i = i + j;
