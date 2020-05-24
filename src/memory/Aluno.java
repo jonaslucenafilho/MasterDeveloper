@@ -1,4 +1,4 @@
-package insider.memory;
+package memory;
 
 public class Aluno {
 	
